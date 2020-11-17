@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Change Log</title>
+		<link rel="stylesheet" type="text/css" href="mainCSS.css">
+	</head>
+	
+	<body onload="displayModified()">
+<!-- Navigation -->
+		<div class="fixed">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Leagues <span class="caret"></span></a>
+						<div>
+							<ul>
+								<li><a href="EPL.html">English Premier League</a></li>
+								<li><a href="Bundesliga.html">Bundesliga</a></li>
+								<li><a href="La Liga.html">La Liga</a></li>
+								<li><a href="Serie A.html">Serie A</a></li>
+								<li><a href="Ligue 1.html">Ligue 1</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="changelog.html">Change Log</a></li>
+					<li><a href="contact us.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+<!-- Header -->
+		<header class="center">
+			<h1>Change Log</h1>
+		</header>
+		
+<!-- Section -->
+		<section class="change">
+			<p class="main">
+				This is a list of the following changes between editions. The newest changes to the site are in white.
+			</p>
+			
+			<ul>
+				<li class="version">Version 1.0
+					<ul>
+						<li>Site Created</li>
+					</ul>
+				</li>	
+				<li class="version">Version 1.1
+					<ul>
+						<li>Added 3rd layer to menu</li>
+						<li>Added Change Log</li>
+						<li>Reorganized CSS file</li>
+						<li>XML Files updated
+							<ul>
+								<li>EPL.xml updated (1 team added, Completed)</li>
+								<li>La Liga.xml updated (1 team added, 1 team missing)</Li>
+								<li>Ligue 1.xml updated (1 team added, Completed)</li>
+							</ul>
+						</li>
+						<li>Added League logos</li>
+						<li>Added xquery screen shots</li>
+					</ul>
+				</li>
+				<li class="version">Version 1.2
+					<ul>
+						<li>Changed new items to white</li>
+						<li>Added in a form webpage</li>
+						<li>Updated Version Numbering</li>
+						<li>Added Javascript</li>
+					</ul>
+				</li>
+				<li class="version">Version 1.2.1
+					<ul>
+						<li>Changed new text to white to better blend with background</li>
+						<li>Changed text to yellow to better blend with background</li>
+						<li>Updated background</li>
+						<li>Updated simpler nav system</li>
+						<li>Added According Menu</li>
+						<li>Updated date field to be used with all browsers</li>
+					</ul>
+				</li>
+				<li class="version">Version 1.3
+					<ul>
+						<li>Added DOM elements</li>
+						<li>Updated Footer with DOM element</li>
+						<li>Removed Sorting section</li>
+					</ul>
+				</li>
+				<li class="new">Version 1.3
+					<ul>
+						<li>Added 5 new HTML files
+							<ul>
+								<li>EPL.html</li>
+								<li>Bundesliga.html</li>
+								<li>La Liga.html</li>
+								<li>Serie A.html</li>
+								<li>Ligue 1.html</li>
+							</ul>
+						</li>
+						<li>Added AJAX scripts to each HTML Page</li>
+						<li>Fixed table in Contact Us page</li>
+						<li>XML Files updated
+							<ul>
+								<li>La Liga.xml updated (1 team added, Completed)</Li>
+								<li>Serie A.xml updated (1 team added, Completed)</Li>
+							</ul>
+						</li>
+						<li>Added Last Updated DOM to all Pages</li>
+						<li>Added Leagues to menubar</li>
+					</ul>
+				</li>
+			</ul>	
+		</section>	
+		
+<!-- Footer -->		
+		<footer>
+			<p id="modified"></p>
+
+		
+			<script>
+				function displayModified() {
+					var mod = document.lastModified;
+					document.getElementById("modified").innerHTML = 'Created By Micheal Smith' + '\xa0\xa0\xa0' + 'Updated: ' + mod;
+				}
+			</script>
+		</footer>
+	</body>
+</html>

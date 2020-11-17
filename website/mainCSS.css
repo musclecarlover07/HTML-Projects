@@ -1,0 +1,357 @@
+body {
+	background-image: url('Images/scuffedstatic.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: yellow;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	margin-top: 90px;
+	width: 100%;
+}
+
+div.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	}
+
+nav {
+	background-image: url('Images/scuffedstatic.jpg');
+	background-size: cover;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	width: 100%; 
+	top: 8px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; 
+	}
+
+nav ul li a {
+	color: #aaa;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	}
+
+nav ul li a .caret {
+	border-top: 4px solid #aaa;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+
+	-webkit-transition: color 0.1s linear;
+	-moz-transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;
+	  transition: color 0.1s linear; 
+	}
+
+nav ul li:hover {
+	background-image: url('space.jpg');
+	}
+
+nav ul li:hover a {
+	color: yellow;
+	}
+
+nav ul li:hover a.caret {
+	border-top-color: rgb( 255, 255, 255 );
+	}
+
+nav ul li div {
+	background-color: rgb( 40, 44, 47 );
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	width: auto;
+	visibility: hidden;
+	z-index: 100;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+	}
+
+nav ul li div ul li{
+	display: block;
+	}
+
+nav ul li div ul li a{
+	color: #fff;
+	display: block;
+	padding: 12px 24px;
+	text-decoration: none;
+	}
+
+nav ul li div ul li:hover a{
+	background-color: rgba( 255, 255, 255, 0.1);
+	}
+
+nav ul li:hover div{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	}
+
+header {
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+}
+
+	.img {
+			width: 922px;
+			text-align: center;
+		}
+
+		img {
+			height: 100px;
+			margin-left: 25px;
+			padding: 10px;
+			object-fit: contain; 
+		}
+	
+	.center {
+			text-align: center;
+		}
+
+section { 
+	width: 922px;
+	text-align: justify;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+	.form {
+		width: 500px;
+	}
+
+	.note {
+		margin-top: 100px;
+	}
+
+	.change {
+		margin-top: 50px;
+		width: 500px;
+	}
+
+	.main {
+		margin-top: -10px;
+		margin-left: 20px;
+	}
+
+	.new {
+		color: white;
+	}
+
+	.according {
+		text-align: center;
+	}
+
+	.sort {
+		text-decoration: underline;
+		color: yellow;
+	}
+
+	.undersort {
+		margin-top: -15px;
+	}
+
+	.flag {
+		height: 20px;
+		object-fit: contain;
+		padding: 0px;
+	}
+
+	.inquiry {
+
+	}
+
+	table {
+		margin: auto;
+	}
+
+		th {
+			text-align: right;
+		}
+
+		td {
+			text-align: left;
+		}
+		
+		buttons {
+			width: 100px;
+		}
+		
+		.description {
+			width: 200px;
+			padding: 0 0 0 10px;
+		}
+		
+		.display {
+			width: 550px;
+		}
+
+	.error {
+		font-size: 12px;
+		font-style: italic;
+	}
+	
+	button.accordion {
+			color: yellow;
+			background-image: url('Images/space.jpg');
+			cursor: pointer;
+			padding: 20px;
+			width: 500px;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			transition: 0.4s;
+			display: inline-block;
+			vertical-align: center;
+	}
+
+	button.accordion.active, button.accordion:hover {
+			background-color: #ddd;
+	}
+
+	button.accordion:after {
+			content: '\02795';
+			font-size: 13px;
+			color: #777;
+			float: right;
+			margin-left: 5px;
+		}
+
+	button.accordion.active:after {
+			content: "\2796";
+	}
+
+	div.panel {
+		padding: 0 18px;
+		color: black;
+		max-height: 0;
+		overflow: hidden;
+		transition: 0.6s ease-in-out;
+		opacity: 0;    
+		width: 414px;
+		text-align: center;
+		margin-left: 211px;
+	}
+
+	div.panel.show {
+			opacity: 1;
+			max-height: 1500px;
+			background-image: url('Images/space.jpg');
+			text-align: center;
+		}
+
+	.button {
+		  border-radius: 4px;
+		  background-color: #f4511e;
+		  border: none;
+		  color: #FFFFFF;
+		  text-align: center;
+		  font-size: 28px;
+		  padding: 20px;
+		  width: 200px;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		}
+
+	.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+
+	.button span:after {
+		  content: "\00bb";
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+	.button:hover span {
+		  padding-right: 25px;
+		}
+
+	.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}
+
+footer {
+	margin-top: 1000px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100%;
+} 
+
+
+// Using for now to format XML
+team {
+	display: block;
+}
+
+team_name {
+	margin-left: 10px;
+	color: blue;
+	text-decoration: underline; 
+}
+
+location { 
+	display: block;
+	margin-left: 25px;
+}
+
+ground {
+	display: block;
+	margin-left: 25px;
+}
+
+capacity {
+	display: block;
+	margin-left: 25px;
+}

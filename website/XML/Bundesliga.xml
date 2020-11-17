@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundesliga>
+	<team>
+		<team_name>FC Augsburg</team_name>
+		<location>Augsburg</location>			
+		<ground>WWK Arena</ground>
+		<capacity>30,660</capacity>				
+	</team>
+	<team>
+		<team_name>Hertha BSC</team_name>
+		<location>Berlin</location>			
+		<ground>Olympiastadion</ground>
+		<capacity>74,475</capacity>						
+	</team>
+	<team>
+		<team_name>Werder Bremen</team_name>
+		<location>Bremen</location>
+		<ground>Weser-Stadion</ground>
+		<capacity>42,100</capacity>						
+	</team>
+	<team>
+		<team_name>Borussia Dortmund</team_name>
+		<location>Dortmund</location>			
+		<ground>Signal Iduna Park</ground>
+		<capacity>81,360</capacity>					
+	</team>
+	<team>
+		<team_name>Fortuna Düsseldorf</team_name>
+		<location>Düsseldorf</location>		
+		<ground>Esprit Arena</ground>
+		<capacity>54,600</capacity>						
+	</team>
+	<team>
+		<team_name>Eintracht Frankfurt</team_name>
+		<location>Frankfurt</location>			
+		<ground>Commerzbank-Arena</ground>
+		<capacity>51,500</capacity>		
+	</team>	
+	<team>
+		<team_name>SC Freiburg</team_name>
+		<location>Freiburg im Breisgau</location>			
+		<ground>Schwarzwald-Stadion</ground>
+		<capacity>24,000</capacity>						
+	</team>
+	<team>
+		<team_name>Hannover 96</team_name>
+		<location>Hanover</location>			
+		<ground>HDI-Arena</ground>
+		<capacity>49,000</capacity>						
+	</team>
+	<team>
+		<team_name>1899 Hoffenheim</team_name>
+		<location>Sinsheim</location>			
+		<ground>Wirsol Rhein-Neckar-Arena</ground>
+		<capacity>30,150</capacity>						
+	</team>
+	<team>
+		<team_name>RB Leipzig</team_name>
+		<location>Leipzig</location>			
+		<ground>Red Bull Arena</ground>
+		<capacity>42,558</capacity>						
+	</team>
+	<team>
+		<team_name>Bayer Leverkusen</team_name>
+		<location>Leverkusen</location>			
+		<ground>BayArena</ground>
+		<capacity>30,000</capacity>						
+	</team>
+	<team>
+		<team_name>Mainz 05</team_name>
+		<location>Mainz</location>			
+		<ground>Opel Arena</ground>
+		<capacity>34,000</capacity>							
+	</team>
+	<team>
+		<team_name>Borussia Mönchengladbach</team_name>
+		<location>Mönchengladbach</location>			
+		<ground>Borussia-Park</ground>
+		<capacity>54,014</capacity>				
+	</team>
+	<team>
+		<team_name>Bayern Munich</team_name>
+		<location>Munich</location>	
+		<ground>Allianz Arena</ground>
+		<capacity>75,000</capacity>							
+	</team>
+	<team>
+		<team_name>1. FC Nürnberg</team_name>
+		<location>Nuremberg</location>	
+		<ground>Max-Morlock-Stadion</ground>
+		<capacity>50,000</capacity>						
+	</team>
+	<team>
+		<team_name>Schalke 04</team_name>
+		<location>Gelsenkirchen</location>	
+		<ground>Veltins-Arena</ground>
+		<capacity>62,271</capacity>						
+	</team>	
+	<team>
+		<team_name>VfB Stuttgart</team_name>
+		<location>Stuttgart</location>
+		<ground>Mercedes-Benz Arena</ground>
+		<capacity>60,449</capacity>				
+	</team>
+	<team>
+		<team_name>VfL Wolfsburg</team_name>
+		<location>Wolfsburg</location>
+		<ground>Volkswagen Arena</ground>
+		<capacity>30,000</capacity>		
+	</team>		
+</bundesliga>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ligue_1>
+	<team>
+		<team_name>Amiens</team_name>
+		<location>Amiens</location>
+		<ground>Stade de la Licorne</ground>
+		<capacity>12,097</capacity>					
+	</team>
+	<team>
+		<team_name>Angers</team_name>
+		<location>Angers</location>
+		<ground>Stade Raymond Kopa</ground>
+		<capacity>17,835</capacity>					
+	</team>
+	<team>
+		<team_name>Bordeaux</team_name>
+		<location>Bordeaux</location>
+		<ground>Matmut Atlantique</ground>
+		<capacity>42,115</capacity>					
+	</team>
+	<team>
+		<team_name>Caen</team_name>
+		<location>Caen</location>
+		<ground>Stade Michel d'Ornano</ground>
+		<capacity>20,453</capacity>						
+	</team>
+	<team>
+		<team_name>Dijon</team_name>
+		<location>Dijon</location>
+		<ground>Stade Gaston Gérard</ground>
+		<capacity>18,376</capacity>						
+	</team>
+	<team>
+		<team_name>Guingamp</team_name>
+		<location>Guingamp</location>
+		<ground>Stade du Roudourou</ground>
+		<capacity>18,378</capacity>					
+	</team>
+	<team>
+		<team_name>Lille</team_name>
+		<location>Villeneuve-d'Ascq</location>
+		<ground>Stade Pierre-Mauroy</ground>
+		<capacity>50,157</capacity>					
+	</team>	
+	<team>
+		<team_name>Lyon</team_name>
+		<location>Décines-Charpieu</location>
+		<ground>Groupama Stadium</ground>
+		<capacity>59,186</capacity>						
+	</team>
+	<team>
+		<team_name>Marseille</team_name>
+		<location>Marseille</location>
+		<ground>Orange Vélodrome</ground>
+		<capacity>67,394</capacity>							
+	</team>
+	<team>
+		<team_name>Monaco</team_name>
+		<location>Monaco</location>
+		<ground>Stade Louis II</ground>
+		<capacity>18,523</capacity>				
+	</team>
+	<team>
+		<team_name>Montpellier</team_name>
+		<location>Montpellier</location>
+		<ground>Stade de la Mosson</ground>
+		<capacity>32,939</capacity>					
+	</team>
+	<team>
+		<team_name>Nantes</team_name>
+		<location>Nantes</location>
+		<ground>Stade de la Beaujoire</ground>
+		<capacity>37,473</capacity>						
+	</team>
+	<team>
+		<team_name>Nice</team_name>
+		<location>Nice</location>
+		<ground>Allianz Riviera</ground>
+		<capacity>35,624</capacity>						
+	</team>
+	<team>
+		<team_name>Nîmes</team_name>
+		<location>Nîmes</location>
+		<ground>Stade des Costières</ground>
+		<capacity>18,482</capacity>						
+	</team>
+	<team>
+		<team_name>Paris Saint-Germain</team_name>
+		<location>Paris</location>
+		<ground>Parc des Princes</ground>
+		<capacity>48,583</capacity>					
+	</team>
+	<team>
+		<team_name>Reims</team_name>
+		<location>Reims</location>
+		<ground>Stade Auguste Delaune</ground>
+		<capacity>21,684</capacity>							
+	</team>
+	<team>
+		<team_name>Rennes</team_name>
+		<location>Rennes</location>
+		<ground>Roazhon Park</ground>
+		<capacity>29,778</capacity>							
+	</team>
+	<team>
+		<team_name>Saint-Étienne</team_name>
+		<location>Saint-Étienne</location>
+		<ground>Stade Geoffroy-Guichard</ground>
+		<capacity>41,965</capacity>							
+	</team>
+	<team>
+		<team_name>Strasbourg</team_name>
+		<location>Strasbourg</location>	
+		<ground>Stade de la Meinau</ground>
+		<capacity>29,230</capacity>
+	</team>	
+	<team>
+		<team_name>Toulouse</team_name>
+		<location>Toulouse</location>
+		<ground>Stadium Municipal</ground>
+		<capacity>33,150</capacity>
+	</team>
+</ligue_1>

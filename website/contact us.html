@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="mainCSS.css">
+		<script>	
+			function validateMyForm() {
+			// Create validation tracking variables
+				var valid = true;
+
+				var validationMessage = 'Please correct the following errors:\r\n'; 
+		
+			// Validate first name
+				if (document.getElementById('name').value.length == 0) {
+					validationMessage = validationMessage + '  - Name is missing\r\n';
+					document.getElementById('nameError').style.visibility='visible';
+					valid = false;
+				} else {	
+					document.getElementById('nameError').style.visibility='hidden';
+				}	
+			// Validate email
+				if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(frm.email.value)) {
+					document.getElementById('emailError').style.visibility='hidden';		   
+				} else if(document.getElementById('email').value.length == 0) {
+					validationMessage = validationMessage + '  - Email is missing\r\n';
+					document.getElementById('emailError').style.visibility='visible';
+					valid = false;
+					var invalid = document.getElementById('emailError').innerHTML;
+					var required = invalid.replace("invalid email","email is required");
+					document.getElementById('emailError').innerHTML = required;
+				} else {
+					validationMessage = validationMessage + '  - Email is invalid\r\n';
+					document.getElementById('emailError').style.visibility='visible';
+					valid = false;
+					var required = document.getElementById('emailError').innerHTML;
+					var invalid = required.replace("email is required","invalid email");
+					document.getElementById('emailError').innerHTML = invalid;
+				}
+				
+			// Validate date
+				var dateFormat = /^(0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])[\/\-]\d{4}$/;
+	
+				if(document.getElementById('date').value.match(dateFormat)) {					
+					var char1 = document.getElementById('date').value.split('/');
+					var char2 = document.getElementById('date').value.split('-');
+					char1 = char1.length;
+					char2 = char2.length;
+					
+					if (char1 > 1) {
+						var pDate = document.getElementById('date').value.split('/');
+					} else if (char2 > 1) {
+						var pDate = document.getElementById('date').value.split('-');
+					}
+					
+					var mm = parseInt(pDate[0]);
+					var dd = parseInt(pDate[1]);
+					var yy = parseInt(pDate[2]);
+					
+					var listOfDays = [31,28,31,30,31,30,31,31,30,31,30,31];
+		
+					if (mm == 1 || mm > 2) {
+						if (dd > listOfDays [mm-1]) {
+							validationMessage = validationMessage + '  - Invalid Date\r\n';
+							document.getElementById('dateError').style.visibility='visible';
+							valid = false;
+							var requiredDate = document.getElementById('dateError').innerHTML;
+							var invalidDate = requiredDate.replace("date is required","invalid date");
+							document.getElementById('dateError').innerHTML = invalidDate;
+						}
+					}
+		
+					if (mm = 2) {
+						var leapYear = false;
+			
+						if ((!(yy % 4) && yy && 100) || !(yy % 400)) {
+							leapYear = true;
+						}
+			
+						if ((leapYear == false) && (dd >= 29)) {
+							validationMessage = validationMessage + '  - Invalid Date\r\n';
+							document.getElementById('dateError').style.visibility='visible';
+							valid = false;
+							var requiredDate = document.getElementById('dateError').innerHTML;
+							var invalidDate = requiredDate.replace("date is required","invalid date");
+							document.getElementById('dateError').innerHTML = invalidDate;
+						}
+			
+						if ((leapYear == true) && (dd > 29)) {
+							validationMessage = validationMessage + '  - Invalid Date\r\n';
+							document.getElementById('dateError').style.visibility='visible';
+							valid = false;
+							var requiredDate = document.getElementById('dateError').innerHTML;
+							var invalidDate = requiredDate.replace("date is required","invalid date");
+							document.getElementById('dateError').innerHTML = invalidDate;
+						}	
+					}
+		
+				} else if (document.getElementById('date').value.length == 0) {	
+					validationMessage = validationMessage + '  - Date is missing\r\n';
+					document.getElementById('dateError').style.visibility='visible';
+					valid = false; 
+					var invalidDate = document.getElementById('dateError').innerHTML;
+					var requiredDate = invalidDate.replace("invalid date","date is required");
+					document.getElementById('dateError').innerHTML = requiredDate;
+				} else {
+					validationMessage = validationMessage + '  - Invalid Date\r\n';
+					document.getElementById('dateError').style.visibility='visible';
+					valid = false; 
+					var requiredDate = document.getElementById('dateError').innerHTML;
+					var invalidDate = requiredDate.replace("date is required","invalid date");
+					document.getElementById('dateError').innerHTML = invalidDate;
+				}
+				
+			// Validate inquiry
+				if (document.getElementById('inquiry').value.length == 0) {
+					validationMessage = validationMessage + '  - Inquiry is missing\r\n';
+					document.getElementById('inquiryError').style.visibility='visible';
+					valid = false;
+				} else {	
+					document.getElementById('inquiryError').style.visibility='hidden';
+				}
+									
+				// Display alert box with errors if any errors found
+				if (valid == false) {
+					alert(validationMessage);
+				} else {
+					alert('Thank you for submitting your information. We will get back to you ASAP.');
+				}
+				return valid;
+			}
+		</script>
+		<style>
+			p {
+				width: 550px; 
+				margin-left: auto; 
+				margin-right: auto;
+			}
+		</style>
+	</head>
+
+	<body onload="displayModified()">
+<!-- Navigation Bar -->		
+		<div class="fixed">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Leagues <span class="caret"></span></a>
+						<div>
+							<ul>
+								<li><a href="EPL.html">English Premier League</a></li>
+								<li><a href="Bundesliga.html">Bundesliga</a></li>
+								<li><a href="La Liga.html">La Liga</a></li>
+								<li><a href="Serie A.html">Serie A</a></li>
+								<li><a href="Ligue 1.html">Ligue 1</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="changelog.html">Change Log</a></li>
+					<li><a href="contact us.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+<!-- Header -->	
+		<header class="center">
+			<h1>Inquiries</h1>
+		</header>
+		
+<!-- Section -->
+		<section>
+			<p>
+				If you have any inquiries please fill out the form and we will get back with you asap.
+				<br><br>
+				Note this will create an email in a mail application such as Mail or Outlook It will also send the email to my school account at m.smith1274@my.cs.coloradotech.edu. If you would like to send the email then go ahead. If you want a response then let me know in the inquiry field. 
+			</p>
+			
+			<br>
+			
+			<p>
+				* = required field
+			<p>
+		</section>
+		
+<!-- Section -->
+		<section class="form">
+	<!-- Form -->
+			<form name="frm" method="post" action="mailto:m.smith1274@my.cs.coloradotech.edu">
+				<table>
+			<!-- First Row -->
+					<tr>
+						<th>
+							Name*:
+						</th>
+						<td>
+							<input id="name" type="text" name="name" size=10> 
+
+							<span class="error" id="nameError" style="visibility:hidden">
+									name is required
+							</span>
+						</td>
+					</tr>
+			<!-- Second Row -->
+					<tr>
+						<th>
+							Email*:
+						</th>
+						<td>
+							<input id="email" type="text" name="rmail" size=30> 
+	
+							<span class="error" id="emailError" style="visibility:hidden">
+									email is required
+							</span>
+						</td>
+					</tr>
+			<!-- Third Row -->
+					<tr>
+						<th>
+							Date*:
+						</th>
+						<td>
+							<input id="date" type="text" name="date" size=10> 
+			
+							<span class="error" id="dateError" style="visibility:hidden">
+									date is required
+							</span>
+						</td>
+					</tr>			
+			<!-- Fourth Row -->
+					<tr>
+						<th>
+						
+						</th>
+						<td style="font-size:14px;">
+							&nbsp; Format:&nbsp; mm-dd-yyyy
+							<br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mm/dd/yyyy
+						</td>
+					</tr>
+			<!-- Fifth Row -->
+					<tr>
+						<th>
+							Inquiry*:
+						</th>
+						<td>
+							<textarea cols="30" rows="4" id="inquiry" name="inquiry" ></textarea>
+							<span class="error" id="inquiryError" style="visibility:hidden">
+									inquiry is required
+							</span>
+						</td>
+					</tr>
+			<!-- Sixth Row --> 		
+					<tr>
+						<td colspan=2 style="text-align: center;">
+							<input type="submit" value="Submit" onclick="return validateMyForm()">
+							<input type="reset" value="Reset">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</section>	
+		
+<!-- Footer -->		
+		<footer>
+			<p id="modified"></p>
+
+		
+			<script>
+				function displayModified() {
+					var mod = document.lastModified;
+					document.getElementById("modified").innerHTML = 'Created By Micheal Smith' + '\xa0\xa0\xa0' + 'Updated: ' + mod;
+				}
+			</script>
+		</footer>
+
+	</body>
+</html>

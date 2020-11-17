@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>La Liga</title>
+		<link rel="stylesheet" type="text/css" href="mainCSS.css">
+		<style>
+			table{
+				text-align: center;
+				border-collapse: collapse;
+			}
+			
+			th, td {
+				border-bottom: 1px solid blue;
+				text-align: center;
+				width: 250px;
+			}
+			
+			tr:first-child {
+				border-bottom: 5px solid blue;
+				
+			}
+		
+			tr:hover {
+				background-color: #3e4444;
+			}
+			
+			section {
+				text-align: center;
+				width:100%;
+			}	
+		</style>
+	</head>
+	<body onload="displayModified()">
+<!-- Navigation Bar -->			
+		<div class="fixed">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Leagues <span class="caret"></span></a>
+						<div>
+							<ul>
+								<li><a href="EPL.html">English Premier League</a></li>
+								<li><a href="Bundesliga.html">Bundesliga</a></li>
+								<li><a href="La Liga.html">La Liga</a></li>
+								<li><a href="Serie A.html">Serie A</a></li>
+								<li><a href="Ligue 1.html">Ligue 1</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="changelog.html">Change Log</a></li>
+					<li><a href="contact us.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+
+<!-- Header -->		
+		<header>
+			<h1>La Liga</h1>
+		</header>
+		
+<!-- Section -->
+	<!-- Main -->
+		<section>
+			<p>
+				This is a table of all teams that will participate in the 2018-19 La Liga.  
+			</p>
+		
+		</section>
+
+	<!-- XML Table-->
+		<section>
+			<button type="button" onclick="loadXMLDoc()">View La Liga Information</button>
+					
+			<table id="demo"></table>
+	
+	
+			<script>
+				function loadXMLDoc() {
+					var xmlhttp = new XMLHttpRequest();
+					xmlhttp.onreadystatechange = function() {
+						if (this.readyState == 4 && this.status == 200) {
+							myFunction(this);
+						}
+					};
+					xmlhttp.open("GET", "XML/La Liga.xml", true);
+					xmlhttp.send();
+				}
+			
+				function myFunction(xml) {
+					var i;
+					var xmlDoc = xml.responseXML;
+					var table="<tr><th>Team Name</th><th>Location</th><th>Grounds</th><th>Capacity</th></tr>";
+					var x = xmlDoc.getElementsByTagName("team");
+					for (i = 0; i <x.length; i++) { 
+						table += 
+						"<tr><td class='team'>" +
+						x[i].getElementsByTagName("team_name")[0].childNodes[0].nodeValue +
+						"</td><td class='location'>" +
+						x[i].getElementsByTagName("location")[0].childNodes[0].nodeValue +
+						"</td><td class='ground'>" +
+						x[i].getElementsByTagName("ground")[0].childNodes[0].nodeValue +
+						"</td><td class='capacity'>" +
+						x[i].getElementsByTagName("capacity")[0].childNodes[0].nodeValue +
+						"</td></tr>";
+					}
+					document.getElementById("demo").innerHTML = table;
+				}
+			</script>
+		</section>		
+		
+<!-- Footer -->		
+		<footer>
+			<p id="modified"></p>
+
+			<script>
+				function displayModified() {
+					var mod = document.lastModified;
+					document.getElementById("modified").innerHTML = 'Created By Micheal Smith' + '\xa0\xa0\xa0' + 'Updated: ' + mod;
+				}
+			</script>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<la_liga>
+	<team>
+		<team_name>Alavés</team_name>
+		<location>Vitoria-Gasteiz</location>
+		<ground>Mendizorrotza</ground>
+		<capacity>19,840</capacity>				
+	</team>
+	<team>
+		<team_name>Athletic Bilbao</team_name>
+		<location>Bilbao</location>
+		<ground>San Mamés</ground>
+		<capacity>53,289</capacity>						
+	</team>
+	<team>
+		<team_name>Atlético Madrid</team_name>
+		<location>Madrid</location>
+		<ground>Wanda Metropolitano</ground>
+		<capacity>67,703</capacity>						
+	</team>
+	<team>
+		<team_name>Barcelona</team_name>
+		<location>Barcelona</location>
+		<ground>Camp Nou</ground>
+		<capacity>99,354</capacity>						
+	</team>
+	<team>
+		<team_name>Celta Vigo</team_name>
+		<location>Vigo</location>
+		<ground>Balaídos</ground>
+		<capacity>29,000</capacity>						
+	</team>
+	<team>
+		<team_name>Eibar</team_name>
+		<location>Eibar</location>
+		<ground>Ipurua</ground>
+		<capacity>7,083</capacity>						
+	</team>
+	<team>
+		<team_name>Espanyol</team_name>
+		<location>Barcelona</location>
+		<ground>RCDE Stadium</ground>
+		<capacity>40,500</capacity>				
+	</team>
+	<team>
+		<team_name>Getafe</team_name>
+		<location>Getafe</location>
+		<ground>Coliseum Alfonso Pérez</ground>
+		<capacity>17,000</capacity>			
+	</team>
+	<team>
+		<team_name>Girona</team_name>
+		<location>Girona</location>
+		<ground>Montilivi</ground>
+		<capacity>13,450</capacity>										
+	</team>
+	<team>
+		<team_name>Huesca</team_name>
+		<location>Huesca</location>
+		<ground>El Alcoraz</ground>
+		<capacity>5,500</capacity>						
+	</team>
+	<team>
+		<team_name>Leganés</team_name>
+		<location>Leganés</location>
+		<ground>Municipal de Butarque</ground>
+		<capacity>11,454</capacity>				
+	</team>
+	<team>
+		<team_name>Levante</team_name>
+		<location>Valencia</location>
+		<ground>Ciutat de València</ground>
+		<capacity>26,354</capacity>							
+	</team>
+	<team>	
+		<team_name>Rayo Vallecano</team_name>
+		<location>Madrid</location>
+		<ground>Vallecas</ground>
+		<capacity>14,708</capacity>
+	</team>
+	<team>
+		<team_name>Real Betis</team_name>
+		<location>Seville</location>
+		<ground>Benito Villamarín</ground>
+		<capacity>60,720</capacity>							
+	</team>
+	<team>
+		<team_name>Real Madrid</team_name>
+		<location>Madrid</location>
+		<ground>Santiago Bernabéu</ground>
+		<capacity>81,044</capacity>						
+	</team>
+	<team>
+		<team_name>Real Sociedad</team_name>
+		<location>San Sebastián</location>
+		<ground>Anoeta</ground>
+		<capacity>32,000</capacity>					
+	</team>
+	<team>
+		<team_name>Sevilla</team_name>
+		<location>Seville</location>
+		<ground>Ramón Sánchez Pizjuán</ground>
+		<capacity>42,714</capacity>
+	</team>
+	<team>
+		<team_name>Valencia</team_name>
+		<location>Valencia</location>
+		<ground>Mestalla</ground>
+		<capacity>49,500</capacity>					
+	</team>
+	<team>
+		<team_name>Valladolid</team_name>
+		<location>Valladolid</location>
+		<ground>José Zorrilla</ground>
+		<capacity>26,512</capacity>
+	</team>
+	<team>
+		<team_name>Villarreal</team_name>
+		<location>Villarreal</location>
+		<ground>Estadio de la Cerámica</ground>
+		<capacity>24,890</capacity>
+	</team>	
+</la_liga>

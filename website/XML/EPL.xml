@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epl>
+	<team>
+		<team_name>Arsenal</team_name>
+		<location>London (Holloway)</location>
+		<ground>Emirates Stadium</ground>
+		<capacity>59,867</capacity>	
+	</team>		
+	<team>	
+		<team_name>Bournemouth</team_name>
+		<location>Bournemouth</location>
+		<ground>Vitality Stadium</ground>
+		<capacity>11,360</capacity>
+	</team>			
+	<team>	
+		<team_name>Brighton and Hove Albion</team_name>
+		<location>Brighton</location>		
+		<ground>AMEX Stadium</ground>
+		<capacity>30,666</capacity>
+	</team>					
+	<team>	
+		<team_name>Burnley</team_name>
+		<location>Burnley</location>			
+		<ground>Turf Moor</ground>
+		<capacity>21,944</capacity>
+	</team>			
+	<team>	
+		<team_name>Cardiff City</team_name>
+		<location>Cardiff</location>			
+		<ground>Cardiff City Stadium</ground>
+		<capacity>33,300</capacity>
+	</team>				
+	<team>	
+		<team_name>Chelsea</team_name>
+		<location>London (Fulham)</location>			
+		<ground>Stamford Bridge</ground>
+		<capacity>41,631</capacity>
+	</team>					
+	<team>	
+		<team_name>Crystal Palace</team_name>
+		<location>London (Selhurst)</location>			
+		<ground>Selhurst Park</ground>
+		<capacity>25,456</capacity>
+	</team>						
+	<team>	
+		<team_name>Everton</team_name>
+		<location>Liverpool</location>			
+		<ground>Goodison Park</ground>
+		<capacity>39,572</capacity>
+	</team>		
+	<team>		
+		<team_name>Fulham</team_name>
+		<location>London (Fulham)</location>
+		<ground>Craven Cottage</ground>
+		<capacity>25,700</capacity>
+	</team>				
+	<team>	
+		<team_name>Huddersfield Town</team_name>
+		<location>Huddersfield</location>			
+		<ground>John Smith's Stadium</ground>
+		<capacity>24,169</capacity>
+	</team>						
+	<team>	
+		<team_name>Leicester City</team_name>
+		<location>Leicester</location>			
+		<ground>King Power Stadium</ground>
+		<capacity>32,312</capacity>
+	</team>					
+	<team>	
+		<team_name>Liverpool</team_name>
+		<location>Liverpool</location>			
+		<ground>Anfield</ground>
+		<capacity>53,394</capacity>
+	</team>						
+	<team>	
+		<team_name>Manchester City</team_name>
+		<location>Manchester, Greater Manchester</location>	
+		<ground>Etihad Stadium</ground>
+		<capacity>55,017</capacity>
+	</team>					
+	<team>	
+		<team_name>Manchester United</team_name>
+		<location>Trafford, Greater Manchester</location>
+		<ground>Old Trafford</ground>
+		<capacity>74,994</capacity>
+	</team>	
+	<team>	
+		<team_name>Newcastle United</team_name>
+		<location>Newcastle upon Tyne</location>	
+		<ground>St James' Park</ground>
+		<capacity>52,354</capacity>
+	</team>						
+	<team>	
+		<team_name>Southampton</team_name>
+		<location>Southampton</location>	
+		<ground>St Mary's Stadium</ground>
+		<capacity>32,384</capacity>
+	</team>				
+	<team>	
+		<team_name>Tottenham Hotspur</team_name>
+		<location>London (Tottenham)</location>	
+		<ground>Tottenham Hotspur Stadium</ground>
+		<capacity>62,062</capacity>
+	</team>					
+	<team>	
+		<team_name>Watford</team_name>
+		<location>Watford</location>	
+		<ground>Vicarage Road</ground>
+		<capacity>23,700</capacity>
+	</team>			
+	<team>	
+		<team_name>West Ham United</team_name>
+		<location>London (Stratford)</location>	
+		<ground>London Stadium</ground>
+		<capacity>60,000</capacity>
+	</team>				
+	<team>	
+		<team_name>Wolverhampton Wanderers</team_name>
+		<location>Wolverhampton</location>
+		<ground>Molineux</ground>
+		<capacity>31,700</capacity>	
+	</team>
+</epl>

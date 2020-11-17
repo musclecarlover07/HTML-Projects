@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="mainCSS.css">
+		<style>
+			tr {
+				height: 55px;
+			}	
+		</style>
+	</head>
+
+	<body onload="displayModified()">
+<!-- Navigation Bar -->			
+		<div class="fixed">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Leagues <span class="caret"></span></a>
+						<div>
+							<ul>
+								<li><a href="EPL.html">English Premier League</a></li>
+								<li><a href="Bundesliga.html">Bundesliga</a></li>
+								<li><a href="La Liga.html">La Liga</a></li>
+								<li><a href="Serie A.html">Serie A</a></li>
+								<li><a href="Ligue 1.html">Ligue 1</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="changelog.html">Change Log</a></li>
+					<li><a href="contact us.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+<!-- Header -->		
+		<header class="img">
+			<img src="Images/EPL.jpg">
+			<img src="Images/Bundesliga.png">
+			<img src="Images/La Liga.png">
+			<img src="Images/Ligue 1.png">
+			<img src="Images/Serie A.png">
+		</header>
+		
+<!-- Section -->	
+	<!-- Main Inforamtion -->	
+		<section>
+			<p>
+				 This website is a collection of some of the top football leagues in the world. It displays the team name, where the team is located. As 						well as their stadium and capacity. 
+			</p>
+			
+			<p>
+				Each league consists of 20 teams with the exception to the Bundesliga, which consists of only 18 teams. Each year teams will be relegated 												to the lower league and an equal amount of teams will be promoted. All teams are current as of May 22, 2018. Some league will have a record or 2 showing 				&#34TBD&#34. Those teams have not be determined yet. 
+			</p>
+			
+			<p>
+				This website is used for informational use. It can be seen as educational. Anyone who is a football fan, especially of the currently chosen leagues, will enjoy this website.  
+			</p>
+		</section>
+		
+	<!-- League Information -->
+		<section>
+			<h1>League Information</h1>
+			<p class="main">
+				Each league consists of 20 teams with the exception of the Bundesliga, which consists of 18 teams. Each year 3 teams will be relegated, or demoted to the league in a lower tier. Then 3 teams are promoted to the top league. Usually the teams that finish 1st and 2nd teams in the second league are automatically promoted. Then 3rd place to 6th place have a playoff tournament to see who is the 3rd team to qualify. 
+			</p>
+		</section>
+		
+	<!-- According Menu -->
+		<section>
+			<h1>XML</h1>
+		
+			<p class="main">
+				This is a collection of several XML files and some Xquery results. Simply click the league you would like to view. The first link will redirect you ti that leagues page, where you can then see all of the XML files. The rest of the links will contain the xquery files.
+			</p>
+		
+			<div class="according">
+			<!-- English Premierleague -->
+				<div>
+					<button class="accordion">
+						<img src="Images/england flag.jpg" class="flag">
+						English Premier League (England)</button>
+
+					<div class="panel">
+						<p>
+							<a href="EPL.html">English Premierleague</a>	
+						</p>
+					
+						<p class="sort">
+							Sort by team
+						</p>
+					
+						<p class="undersort">
+							&nbsp;&nbsp; <a href="xquery/epl team_name asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/epl team_name desc.jpg">Descending</a>	
+						</p>
+					
+						<p class="sort">	
+							Sort by Capacity
+						</p>
+					
+						<p class="undersort">		
+							&nbsp;&nbsp; <a href="xquery/epl capacity asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/epl capacity desc.jpg">Descending</a>
+						</p>
+					</div>
+				</div>
+		
+			<!-- Bundesliga -->
+				<div>
+					<button class="accordion">
+						<img src="Images/german flag.jpg" class="flag">
+						Bundesliga (Germany)</button>
+			
+					<div class="panel">
+						<p>
+							<a href="Bundesliga.html">Bundesliga</a>
+						</p>
+						
+						<p class="sort">
+							Sort by team
+						</p>	
+					
+						<p class="undersort">
+							&nbsp;&nbsp; <a href="xquery/bundesliga team_name asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/bundesliga team_name desc.jpg">Descending</a>
+						</p>	
+
+						<p class="sort">					
+							Sort by Capacity
+						</p>
+					
+						<p class="undersort">				
+							&nbsp;&nbsp; <a href="xquery/bundesliga capacity asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/bundesliga capacity desc.jpg">Descending</a>
+						</p>
+					</div>
+				</div>
+		
+			<!-- La Liga -->	
+				<div>
+					<button class="accordion">
+						<img src="Images/spain flag.jpg" class="flag">
+						La Liga (Spain)</button>
+			
+					<div class="panel">
+						<p>
+							<a href="La Liga.html">La Liga</a>
+						</p>
+						
+						<p class="sort">
+							Sort by team
+						</p>	
+					
+						<p class="undersort">
+							&nbsp;&nbsp; <a href="xquery/la liga team_name asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/la liga team_name desc.jpg">Descending</a>
+						</p>	
+
+						<p class="sort">					
+							Sort by Capacity
+						</p>
+					
+						<p class="undersort">				
+							&nbsp;&nbsp; <a href="xquery/la liga capacity asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/la liga capacity desc.jpg">Descending</a>
+						</p>
+					</div>
+				</div>
+		
+			<!-- Serie A -->	
+				<div>
+					<button class="accordion">
+						<img src="Images/italy flag.jpg" class="flag">
+						Serie A (Italy)
+					</button>
+			
+					<div class="panel">
+						<p>
+							<a href="Serie A.html">Serie A</a>
+						</p>
+						
+						<p class="sort">
+							Sort by team
+						</p>	
+					
+						<p class="undersort">
+							&nbsp;&nbsp; <a href="xquery/serie a team_name asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/serie a team_name desc.jpg">Descending</a>
+						</p>	
+
+						<p class="sort">					
+							Sort by Capacity
+						</p>
+					
+						<p class="undersort">				
+							&nbsp;&nbsp; <a href="xquery/serie a capacity asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/serie a capacity desc.jpg">Descending</a>
+						</p>
+					</div>
+				</div>
+		
+			<!-- Ligue 1 -->	
+				<div>
+					<button class="accordion">
+						<img src="Images/france flag.jpg" class="flag">
+						Ligue 1 (France)
+					</button>
+			
+					<div class="panel">
+						<p>
+							<a href="Ligue 1.html">Ligue 1</a>
+						</p>
+						
+						<p class="sort">
+							Sort by team
+						</p>	
+					
+						<p class="undersort">
+							&nbsp;&nbsp; <a href="xquery/ligue 1 team_name asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/ligue 1 team_name desc.jpg">Descending</a>
+						</p>	
+
+						<p class="sort">					
+							Sort by Capacity
+						</p>
+					
+						<p class="undersort">				
+							&nbsp;&nbsp; <a href="xquery/ligue 1 capacity asec.jpg">Ascending</a>
+						
+							<br>
+						
+							&nbsp;&nbsp; <a href="xquery/ligue 1 capacity desc.jpg">Descending</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<script>
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+					acc[i].onclick = function(){
+						this.classList.toggle("active");
+						this.nextElementSibling.classList.toggle("show");
+				  }
+				}
+			</script>
+		</section>
+		
+	<!-- DOM Elements --> 
+		<section>
+			<h1>DOM Elements</h1>
+			
+			<p class="main">
+				This is a collection of 5 DOM elements within my page. The sixth element is found at the bootom of the page. To view the 5 elements simply click the button "Get info" and it will then display the info.
+			</p>
+			
+			<table>
+		<!-- First Row -->		
+				<tr>
+					<th>
+						Title:
+					</th>
+					<td class="description">
+						Displays the title of the page.
+					</td>
+					<td>
+						<button onclick="displayTitle()">Get Info</button>
+					</td>
+					<td>
+						<p id="title"></p>
+					</td>
+				</tr>
+		<!-- Second Row -->		
+				<tr>
+					<th>
+						Url:
+					</th>
+					<td class="description">
+						Displays the URL of the page.
+					</td>
+					<td>
+						<button onclick="displayURL()">Get Info</button>
+					</td>
+					<td>
+						<p id="url"></p>
+					</td>
+				</tr>
+		<!-- Third Row -->		
+				<tr>
+					<th>
+						Links:
+					</th>
+					<td class="description">
+						Displays the number of links on the page.
+					</td>
+					<td>
+						<button onclick="displayNumLinks()">Get Info</button>
+					</td>
+					<td class="display">
+						<p id="links"></p>
+					</td>
+				</tr>		
+		<!-- Fourth Row -->		
+				<tr>
+					<th>
+						Images:
+					</th>
+					<td class="description">
+						Displays the number of images of the page.
+					</td>
+					<td> 
+						<button onclick="displayImageCount()">Get Info</button>
+					</td>
+					<td class="display">
+						<p id="images"></p>
+					</td>
+				</tr>
+		<!-- Fifth Row -->		
+				<tr>
+					<th>
+						Scripts:
+					</th>
+					<td class="description">
+						Displays the number of scripts running on the page.
+					</td>
+					<td>
+						<button onclick="displayScriptCount()">Get Info</button>
+					</td>
+					<td class="display">
+						<p id="scripts"></p>
+					</td>
+				</tr>
+			</table>
+			
+			<script>
+				var first = 'There are '
+				var last = ' on this page'
+				
+				// Title
+				function displayTitle() {
+					var title = document.title;
+					document.getElementById("title").innerHTML = title;
+				}
+				
+				// URL
+				function displayURL() {
+					var url = document.URL;
+					document.getElementById("url").innerHTML = url;
+				}
+				
+				// Links
+				function displayNumLinks() {
+					var linkCount = document.links.length;
+					document.getElementById("links").innerHTML = first + linkCount + ' links' + last;
+				}
+				
+				// Images
+				function displayImageCount () {
+					var imageCount = document.images.length;
+    				document.getElementById("images").innerHTML = first + imageCount + ' images' + last;
+				}
+				
+				// Scripts
+				function displayScriptCount () {
+					var scriptCount = document.scripts.length;
+   				 	document.getElementById("scripts").innerHTML = first + scriptCount + ' script elements' + last;
+				}
+			
+			</script>
+			
+		</section>
+				
+	<!-- Note -->
+		<section class="note">
+			<p>
+				Note to professor: TBD isn't a place holder or anything. Those teams haven&#39t been decided in real world situations. 
+			</p>
+		</section>
+		
+<!-- Footer -->		
+		<footer>
+			<p id="modified"></p>
+
+		
+			<script>
+				function displayModified() {
+					var mod = document.lastModified;
+					document.getElementById("modified").innerHTML = 'Created By Micheal Smith' + '\xa0\xa0\xa0' + 'Updated: ' + mod;
+				}
+			</script>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serie_a>
+	<team>
+		<team_name>Atalanta</team_name>
+		<location>Bergamo</location>
+		<ground>Stadio Atleti Azzurri d'Italia</ground>
+		<capacity>21,300</capacity>	
+	</team>
+	<team>
+		<team_name>Bologna</team_name>
+		<location>Bologna</location>
+		<ground>Stadio Renato Dall'Ara</ground>
+		<capacity>38,279</capacity>							
+	</team>
+	<team>
+		<team_name>Cagliari</team_name>
+		<location>Cagliari</location>
+		<ground>Sardegna Arena</ground>
+		<capacity>16,233</capacity>						
+	</team>
+	<team>
+		<team_name>Chievo</team_name>
+		<location>Verona</location>
+		<ground>Stadio Marcantonio Bentegodi</ground>
+		<capacity>38,402</capacity>				
+	</team>
+	<team>
+		<team_name>Empoli</team_name>
+		<location>Empoli</location>
+		<ground>Stadio Carlo Castellani</ground>
+		<capacity>16,284</capacity>							
+	</team>
+	<team>
+		<team_name>Fiorentina</team_name>
+		<location>Florence</location>
+		<ground>Stadio Artemio Franchi</ground>
+		<capacity>43,147</capacity>						
+	</team>
+	<team>
+		<team_name>Frosinone</team_name>
+		<location>Frosinone</location>
+		<ground>Stadio Benito Stirpe</ground>
+		<capacity>16,227</capacity>
+	</team>
+	<team>
+		<team_name>Genoa</team_name>
+		<location>Genoa</location>
+		<ground>Stadio Luigi Ferraris</ground>
+		<capacity>36,685</capacity>						
+	</team>
+	<team>
+		<team_name>Internazionale</team_name>
+		<location>Milan</location>
+		<ground>San Siro</ground>
+		<capacity>80,018</capacity>						
+	</team>
+	<team>
+		<team_name>Juventus</team_name>
+		<location>Turin</location>
+		<ground>Juventus Stadium</ground>
+		<capacity>41,507</capacity>						
+	</team>
+	<team>
+		<team_name>Lazio</team_name>
+		<location>Rome</location>
+		<ground>Stadio Olimpico</ground>
+		<capacity>72,698</capacity>						
+	</team>
+	<team>
+		<team_name>Milan</team_name>
+		<location>Milan</location>
+		<ground>San Siro</ground>
+		<capacity>80,018</capacity>					
+	</team>
+	<team>
+		<team_name>Napoli</team_name>
+		<location>Naples</location>
+		<ground>Stadio San Paolo</ground>
+		<capacity>60,240</capacity>							
+	</team>
+	<team>
+		<team_name>Parma</team_name>
+		<location>Parma</location>
+		<ground>Stadio Ennio Tardini</ground>
+		<capacity>27,906</capacity>
+	</team>
+	<team>
+		<team_name>Roma</team_name>
+		<location>Rome</location>
+		<ground>Stadio Olimpico</ground>
+		<capacity>72,698</capacity>						
+	</team>
+	<team>
+		<team_name>Sampdoria</team_name>
+		<location>Genoa</location>
+		<ground>Stadio Luigi Ferraris</ground>	
+		<capacity>36,685</capacity>						
+	</team>
+	<team>
+		<team_name>Sassuolo</team_name>
+		<location>Sassuolo</location>
+		<ground>Mapei Stadium – Città del Tricolore</ground>
+		<capacity>23,717</capacity>				
+	</team>
+	<team>
+		<team_name>SPAL</team_name>
+		<location>Ferrara</location>
+		<ground>Stadio Paolo Mazza</ground>
+		<capacity>13,020</capacity>						
+	</team>
+	<team>
+		<team_name>Torino</team_name>
+		<location>Turin</location>
+		<ground>Stadio Olimpico Grande Torino</ground>
+		<capacity>27,994</capacity>					
+	</team>
+	<team>
+		<team_name>Udinese</team_name>
+		<location>Udine</location>
+		<ground>Stadio Friuli-Dacia Arena</ground>
+		<capacity>25,132</capacity>	
+	</team>
+</serie_a>
